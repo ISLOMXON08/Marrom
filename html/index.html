@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marrom - Главная</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 2px solid gold;
+    }
+    nav a {
+      color: gold;
+      margin-left: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .center {
+      text-align: center;
+      margin: 50px 0 30px 0;
+    }
+    .center button {
+      padding: 10px 20px;
+      background: gold;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      color: black;
+      font-weight: bold;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .feature {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1a1a1a;
+      border-radius: 20px;
+      padding: 30px;
+      gap: 20px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+    }
+    .feature.reverse {
+      flex-direction: row-reverse;
+    }
+    .feature img {
+      width: 45%;
+      border-radius: 15px;
+    }
+    .feature-text {
+      width: 50%;
+    }
+    .feature h2 {
+      color: gold;
+      margin-bottom: 15px;
+    }
+    .feature p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container"  style="color: gold; font-size: 24px; font-weight: bold;">
+        <img src="../images/marrom-logo.png" alt="Marrom Logo" class="logo-img"/>Marrom
+      </div>
+    <nav>
+      <a href="./index.html">Главная</a>
+      <a href="./menu.html">Меню</a>
+      <a href="./delivery.html">Доставка</a>
+      <a href="./contacts.html">Контакты</a>
+    </nav>
+  </header>  <div class="center">
+    <h1>Добро пожаловать в Marrom</h1>
+    <p>Роскошные десерты для настоящих гурманов</p>
+  </div>  <div class="features">
+    <div class="feature">
+      <div class="feature-text">
+        <h2>Натуральные ингредиенты</h2>
+        <p>Наши десерты производятся исключительно из натуральных продуктов: фермерские яйца, сливки, орехи, мёд, ягоды и шоколад. Без консервантов и химии — только чистый вкус.</p>
+      </div>
+      <img src="../images/натурал.jpg" alt="Натуральные продукты">
+    </div><div class="feature reverse">
+  <div class="feature-text">
+    <h2>Производство в Узбекистане</h2>
+    <p>Всё изготавливается вручную в Ташкенте и других регионах Узбекистана с учётом местных традиций и стандартов качества. Каждый этап контролируется профессиональными технологами.</p>
+  </div>
+  <img src="../images/десерты.jpg" alt="Производство">
+</div>
+
+<div class="feature">
+  <div class="feature-text">
+    <h2>Санитарные условия</h2>
+    <p>Наши производственные цеха соответствуют строгим санитарным нормам. Чистота, стерилизация, контроль свежести — гарантия безопасности и высокого качества каждого десерта.</p>
+  </div>
+  <img src="../images/санитар.jfif" alt="Санитарные условия">
+</div>
+
+  </div>
+</body>
+</html>
